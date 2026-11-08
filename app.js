@@ -38,6 +38,47 @@ function initStickyHeader() {
    2. Mobile Drawer Navigation
    ========================================================================== */
 function initMobileDrawer() {
+  // Divi mobile nav toggle
+  const navWrap = document.querySelector('.et_pb_menu_0_tb_header');
+  if (navWrap) {
+    const mobileNav = navWrap.querySelector('.mobile_nav');
+    const mainUl = navWrap.querySelector('ul#menu-bwamenu');
+    if (mobileNav && mainUl) {
+      let mobileMenu = mobileNav.querySelector('.et_mobile_menu');
+      if (!mobileMenu) {
+        mobileMenu = document.createElement('ul');
+        mobileMenu.className = 'et_mobile_menu';
+        mobileMenu.id = 'mobile_menu';
+        mobileMenu.innerHTML = mainUl.innerHTML;
+        mobileNav.appendChild(mobileMenu);
+      }
+
+      mobileNav.addEventListener('click', (e) => {
+        if (e.target.closest('a')) {
+          mobileNav.classList.remove('opened');
+          mobileNav.classList.add('closed');
+          return;
+        }
+        e.stopPropagation();
+        if (mobileNav.classList.contains('opened')) {
+          mobileNav.classList.remove('opened');
+          mobileNav.classList.add('closed');
+        } else {
+          mobileNav.classList.remove('closed');
+          mobileNav.classList.add('opened');
+        }
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!mobileNav.contains(e.target)) {
+          mobileNav.classList.remove('opened');
+          mobileNav.classList.add('closed');
+        }
+      });
+    }
+  }
+
+  // Standalone drawer support if present
   const toggleBtn = document.querySelector('.mobile-toggle');
   const drawer = document.querySelector('.mobile-drawer');
   const overlay = document.querySelector('.mobile-drawer-overlay');
