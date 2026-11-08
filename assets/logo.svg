@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532 114" width="532" height="114">
+  <!-- Left Emblem: Africa Continent with stylized sunburst / water droplet -->
+  <g transform="translate(18, 12)">
+    <!-- Outer concentric ring -->
+    <circle cx="45" cy="45" r="42" fill="none" stroke="#ad431c" stroke-width="2.5" />
+    <circle cx="45" cy="45" r="38" fill="#ad431c" opacity="0.08" />
+    
+    <!-- Stylized Africa continent silhouette -->
+    <path d="M42,16 C48,15 54,17 60,23 C66,29 70,36 67,43 C64,48 62,54 64,60 C66,68 62,76 56,81 C51,85 46,88 42,86 C37,82 34,72 31,66 C28,60 22,54 16,51 C11,48 8,42 9,36 C11,30 17,25 23,22 C27,19 30,17 42,16 Z" fill="#ad431c" opacity="0.25"/>
+    
+    <!-- Bold Central Water Drop and Sun element -->
+    <path d="M45,22 C45,22 32,41 32,50 C32,58 37.8,64 45,64 C52.2,64 58,58 58,50 C58,41 45,22 45,22 Z" fill="#ad431c" />
+    <circle cx="45" cy="49" r="4.5" fill="#ffffff" />
+    <circle cx="45" cy="12" r="2.5" fill="#ad431c" />
+    <circle cx="67" cy="20" r="2.5" fill="#ad431c" />
+    <circle cx="23" cy="20" r="2.5" fill="#ad431c" />
+  </g>
+
+  <!-- Typography: All in consistent authoritative Terracotta #ad431c -->
+  <text x="126" y="48" font-family="'Inter', 'Open Sans', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ad431c" letter-spacing="-0.02em">TOGETHER WE CAN THRIVE</text>
+  
+  <!-- Slogan Divider Line -->
+  <line x1="126" y1="62" x2="512" y2="62" stroke="#ad431c" stroke-width="2" />
+
+  <!-- Tagline: PROVIDING A BRIGHTER FUTURE FOR AFRICA’S CHILDREN -->
+  <text x="126" y="80" font-family="'Open Sans', 'Inter', Helvetica, Arial, sans-serif" font-size="11.8" font-weight="700" fill="#ad431c" letter-spacing="0.08em">PROVIDING A BRIGHTER FUTURE FOR AFRICA’S CHILDREN</text>
+</svg>

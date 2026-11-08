@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120">
+  <style>
+    .badge-title { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700; fill: #1F2937; }
+    .badge-sub { font-family: 'Open Sans', sans-serif; font-size: 10px; font-weight: 600; fill: #6B7280; }
+  </style>
+
+  <!-- Badge 1: Candid Platinum Transparency 2026 -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="175" height="80" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" />
+    <circle cx="35" cy="40" r="22" fill="#0284C7" />
+    <path d="M25,40 L32,47 L46,31" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="34" class="badge-title">Platinum</text>
+    <text x="68" y="48" class="badge-sub">Transparency</text>
+    <text x="68" y="60" font-family="'Inter', sans-serif" font-size="10px" font-weight="700" fill="#0284C7">Candid 2026</text>
+  </g>
+
+  <!-- Badge 2: Charity Navigator 4-Star -->
+  <g transform="translate(240, 20)">
+    <rect x="0" y="0" width="175" height="80" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" />
+    <circle cx="35" cy="40" r="22" fill="#15803D" />
+    <path d="M35,26 L38,34 L46,35 L40,41 L42,49 L35,45 L28,49 L30,41 L24,35 L32,34 Z" fill="#FCB900" />
+    <text x="68" y="34" class="badge-title">Four Star</text>
+    <text x="68" y="48" class="badge-sub">Charity Navigator</text>
+    <text x="68" y="60" font-family="'Inter', sans-serif" font-size="10px" font-weight="700" fill="#15803D">★★★★ 100%</text>
+  </g>
+
+  <!-- Badge 3: BBB Accredited Charity -->
+  <g transform="translate(440, 20)">
+    <rect x="0" y="0" width="175" height="80" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" />
+    <circle cx="35" cy="40" r="22" fill="#005A87" />
+    <text x="35" y="46" font-family="'Inter', sans-serif" font-size="15" font-weight="900" fill="#FFFFFF" text-anchor="middle">BBB</text>
+    <text x="68" y="34" class="badge-title">Accredited</text>
+    <text x="68" y="48" class="badge-sub">Charity Standard</text>
+    <text x="68" y="60" font-family="'Inter', sans-serif" font-size="10px" font-weight="700" fill="#005A87">give.org Verified</text>
+  </g>
+
+  <!-- Badge 4: Combined Federal Campaign -->
+  <g transform="translate(640, 20)">
+    <rect x="0" y="0" width="160" height="80" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" />
+    <circle cx="32" cy="40" r="20" fill="#B75131" />
+    <text x="32" y="45" font-family="'Inter', sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">CFC</text>
+    <text x="62" y="34" class="badge-title">CFC #10750</text>
+    <text x="62" y="48" class="badge-sub">Federal Campaign</text>
+    <text x="62" y="60" font-family="'Inter', sans-serif" font-size="10px" font-weight="700" fill="#B75131">Approved Charity</text>
+  </g>
+
+  <!-- Badge 5: America's Best Charities -->
+  <g transform="translate(820, 20)">
+    <rect x="0" y="0" width="150" height="80" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5" />
+    <circle cx="30" cy="40" r="20" fill="#D97706" />
+    <path d="M30,28 L33,35 L40,36 L35,41 L36,48 L30,44 L24,48 L25,41 L20,36 L27,35 Z" fill="#FFFFFF" />
+    <text x="58" y="34" class="badge-title">Best Charity</text>
+    <text x="58" y="48" class="badge-sub">Seal of Excellence</text>
+    <text x="58" y="60" font-family="'Inter', sans-serif" font-size="10px" font-weight="700" fill="#D97706">Certified</text>
+  </g>
+</svg>
