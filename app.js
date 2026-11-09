@@ -537,7 +537,7 @@ function openDonationModal(amount, frequency) {
 const programData = {
   water: {
     title: 'Clean Water Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2020/04/wate1.png',
+    image: 'assets/img/wate1.png',
     badge: 'Core Catalyst',
     desc: 'Clean water is the cornerstone of community survival and economic independence. When clean water is established, waterborne diseases drop by over 80%, girls can attend class instead of walking hours to fetch murky stream water, and community vegetable plots flourish.',
     stats: ['Over 140 Deep Boreholes Drilled', '38 Solar Pump Storage Systems', '180,000+ Direct Beneficiaries'],
@@ -545,7 +545,7 @@ const programData = {
   },
   education: {
     title: 'Education Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2020/04/ed1.png',
+    image: 'assets/img/ed1.png',
     badge: 'Youth Empowerment',
     desc: 'Education is the passport to breaking systemic poverty. We partner with local schools across Kenya, Chad, and Sierra Leone to provide tuition grants, solar desk lamps, textbooks, desks, and classroom sanitation so every boy and girl has the tools to succeed.',
     stats: ['2,400+ Students Sponsored', '12 Community Libraries Equipped', '98% Graduation Rate in Sponsored Cohorts'],
@@ -553,7 +553,7 @@ const programData = {
   },
   healthcare: {
     title: 'Health Care Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2020/04/he1.png',
+    image: 'assets/img/he1.png',
     badge: 'Lifesaving Care',
     desc: 'Our health programs support rural clinics with essential medications, solar electricity for safe nighttime childbirth, immunization clinics, and mobile health workers who bring malaria diagnostics and maternal checkups to remote villages.',
     stats: ['52 Rural Health Posts Supported', '28,000+ Pediatric Checkups', 'Zero Night Delivery Blackouts with Solar Kits'],
@@ -561,7 +561,7 @@ const programData = {
   },
   orphan: {
     title: 'Orphan Care Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2020/04/orp1.png',
+    image: 'assets/img/orp1.png',
     badge: 'Family & Dignity',
     desc: 'We support community-rooted orphanages like CARILINO in the DRC and partners in Uganda, ensuring children who have lost their parents receive family-style love, nutritious daily meals, counseling, healthcare, and educational opportunity in a dignified environment.',
     stats: ['320+ Children in Family Homes', '100% School Enrollment', 'On-site Farming for Self-Sufficiency'],
@@ -569,7 +569,7 @@ const programData = {
   },
   agriculture: {
     title: 'Agriculture Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2020/04/ag1.png',
+    image: 'assets/img/ag1.png',
     badge: 'Food Sovereignty',
     desc: 'Farming is the bedrock of rural African resilience. Together with local partners like FHDO in Sierra Leone, we train women farmers and youth in organic farming, crop rotation, drought-hardy cassava, and market distribution so communities can feed themselves forever.',
     stats: ['450+ Farmers Certified', '7.5-Acre Flagship Farm in Kinshasa', 'Average 240% Crop Yield Increase'],
@@ -577,7 +577,7 @@ const programData = {
   },
   meals: {
     title: 'School Meal Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2024/02/BWA-BREAD-AND-WATER-FOR-AFRICA-Basic-Relief-Support-.webp',
+    image: 'assets/img/school-meals.webp',
     badge: 'Zero Hunger',
     desc: 'A hungry child cannot focus, learn, or retain knowledge. Our School Meal Program provides hot, nutritious breakfasts and lunches—sourced from local farms—keeping children healthy, energized, and eager to come to school every single morning.',
     stats: ['850+ Daily Meals Served in Kibera', '99.4% Student Attendance Record', 'Local Farm Produce Sourcing'],
@@ -585,7 +585,7 @@ const programData = {
   },
   income: {
     title: 'Income Generation Program',
-    image: 'https://africanrelief.org/wp-content/uploads/2017/07/Banana-harvest-1.jpg',
+    image: 'assets/img/banana-harvest.jpg',
     badge: 'Sustainable Livelihoods',
     desc: 'True relief means self-sufficiency. We provide micro-capital grants, sewing machines, tailoring workshops, and poultry seed funding to widowed mothers and young adults to build independent, thriving businesses that sustain generations.',
     stats: ['280+ Women-Led Businesses Launched', '96% Micro-Loan Repayment/Reinvestment', 'Generational Household Stability'],
@@ -810,7 +810,7 @@ function initSocialInteractions() {
                   <span class="cff-post-author-name">Together We Can Thrive</span>
                   <span class="cff-post-time">1 week ago · 🌐</span>
                 </div>
-                <a href="https://www.facebook.com/175310219146269" target="_blank" class="cff-post-fb-icon" aria-label="View on Facebook">
+                <a href="#facebook" class="cff-post-fb-icon" aria-label="View on Facebook">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="#1877f2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                 </a>
               </div>
